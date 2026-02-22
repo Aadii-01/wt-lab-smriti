@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wt-lab-smriti/static/css/main.d9282d2f.css",
+    "main.js": "/wt-lab-smriti/static/js/main.e02f61fe.js",
+    "index.html": "/wt-lab-smriti/index.html",
+    "main.d9282d2f.css.map": "/wt-lab-smriti/static/css/main.d9282d2f.css.map",
+    "main.e02f61fe.js.map": "/wt-lab-smriti/static/js/main.e02f61fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9282d2f.css",
+    "static/js/main.e02f61fe.js"
+  ]
+}
