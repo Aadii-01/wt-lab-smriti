@@ -1,0 +1,145 @@
+.feedback-page {
+  min-height: 100vh;
+  background: #eef2f7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.feedback-card {
+  width: 720px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.feedback-header {
+  background: #0f172a;
+  color: white;
+  padding: 18px 24px;
+}
+
+.feedback-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.feedback-header p {
+  font-size: 13px;
+  color: #cbd5f5;
+}
+
+.feedback-body {
+  padding: 24px;
+}
+
+.question-row {
+  margin-bottom: 26px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 18px;
+}
+
+.question-text h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.question-text p {
+  font-size: 13px;
+  color: #64748b;
+  margin: 4px 0 12px;
+}
+
+.rating-scale {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scale-left,
+.scale-right {
+  font-size: 12px;
+  color: #64748b;
+  width: 110px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.comments-section {
+  margin-top: 30px;
+}
+
+.comments-section h4 {
+  font-size: 15px;
+  margin-bottom: 14px;
+  color: #0f172a;
+}
+
+.comments-section label {
+  display: block;
+  font-size: 13px;
+  margin: 14px 0 6px;
+  color: #334155;
+  font-weight: 500;
+}
+
+textarea {
+  width: 100%;
+  min-height: 70px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 13px;
+  resize: vertical;
+  outline: none;
+}
+
+textarea:focus {
+  border-color: #2563eb;
+}
+
+.feedback-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.cancel-btn {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #1d4ed8;
+}
